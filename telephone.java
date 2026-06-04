@@ -4,7 +4,7 @@ public class telephone {
         hit = addNum(hit);
         hit = subNum(hit);
         hit = multNum(hit);
-
+        hit = numSQUARED(hit);
         System.out.println(hit);
     }
 
@@ -18,5 +18,9 @@ public class telephone {
 
     public static int multNum(int a) {
         return a * -1;
+    }
+
+    public static int numSQUARED(int b){
+        return b*b;
     }
 }
